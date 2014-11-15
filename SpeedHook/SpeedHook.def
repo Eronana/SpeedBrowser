@@ -1,0 +1,3 @@
+LIBRARY SpeedHook
+EXPORTS
+SetSpeed @ 1
