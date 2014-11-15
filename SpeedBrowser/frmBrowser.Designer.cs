@@ -74,7 +74,7 @@ namespace SpeedBrowser
             this.toolStripButton8});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(815, 31);
+            this.toolStrip1.Size = new System.Drawing.Size(928, 31);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -85,8 +85,8 @@ namespace SpeedBrowser
             this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(67, 28);
-            this.toolStripButton2.Text = "后退";
+            this.toolStripButton2.Size = new System.Drawing.Size(70, 28);
+            this.toolStripButton2.Text = "Back";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripButton1
@@ -96,8 +96,8 @@ namespace SpeedBrowser
             this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(67, 28);
-            this.toolStripButton1.Text = "前进";
+            this.toolStripButton1.Size = new System.Drawing.Size(97, 28);
+            this.toolStripButton1.Text = "Forward";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripButton3
@@ -107,8 +107,8 @@ namespace SpeedBrowser
             this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(67, 28);
-            this.toolStripButton3.Text = "停止";
+            this.toolStripButton3.Size = new System.Drawing.Size(72, 28);
+            this.toolStripButton3.Text = "Stop";
             this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
             // toolStripButton4
@@ -118,8 +118,8 @@ namespace SpeedBrowser
             this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(67, 28);
-            this.toolStripButton4.Text = "刷新";
+            this.toolStripButton4.Size = new System.Drawing.Size(88, 28);
+            this.toolStripButton4.Text = "Reload";
             this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // toolStripButton5
@@ -129,8 +129,8 @@ namespace SpeedBrowser
             this.toolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(67, 28);
-            this.toolStripButton5.Text = "主页";
+            this.toolStripButton5.Size = new System.Drawing.Size(82, 28);
+            this.toolStripButton5.Text = "Home";
             this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
             // 
             // toolStripSeparator1
@@ -145,8 +145,8 @@ namespace SpeedBrowser
             this.toolStripButton6.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(67, 28);
-            this.toolStripButton6.Text = "设置";
+            this.toolStripButton6.Size = new System.Drawing.Size(90, 28);
+            this.toolStripButton6.Text = "Setting";
             this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
             // toolStripSeparator2
@@ -157,8 +157,8 @@ namespace SpeedBrowser
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(39, 28);
-            this.toolStripLabel2.Text = "速度";
+            this.toolStripLabel2.Size = new System.Drawing.Size(56, 28);
+            this.toolStripLabel2.Text = "Speed";
             // 
             // toolStripComboBox1
             // 
@@ -189,8 +189,8 @@ namespace SpeedBrowser
             this.toolStripButton9.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton9.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripButton9.Name = "toolStripButton9";
-            this.toolStripButton9.Size = new System.Drawing.Size(97, 28);
-            this.toolStripButton9.Text = "关闭标签";
+            this.toolStripButton9.Size = new System.Drawing.Size(108, 28);
+            this.toolStripButton9.Text = "Close Tab";
             this.toolStripButton9.Click += new System.EventHandler(this.toolStripButton9_Click);
             // 
             // toolStripButton8
@@ -201,8 +201,8 @@ namespace SpeedBrowser
             this.toolStripButton8.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripButton8.Name = "toolStripButton8";
-            this.toolStripButton8.Size = new System.Drawing.Size(97, 28);
-            this.toolStripButton8.Text = "新建标签";
+            this.toolStripButton8.Size = new System.Drawing.Size(101, 28);
+            this.toolStripButton8.Text = "New Tab";
             this.toolStripButton8.Click += new System.EventHandler(this.toolStripButton8_Click);
             // 
             // toolStrip2
@@ -214,15 +214,15 @@ namespace SpeedBrowser
             this.toolStrip2.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
             this.toolStrip2.Location = new System.Drawing.Point(0, 31);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(815, 77);
+            this.toolStrip2.Size = new System.Drawing.Size(928, 54);
             this.toolStrip2.TabIndex = 1;
             this.toolStrip2.Text = "toolStrip2";
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(39, 20);
-            this.toolStripLabel1.Text = "地址";
+            this.toolStripLabel1.Size = new System.Drawing.Size(38, 20);
+            this.toolStripLabel1.Text = "URL";
             // 
             // toolStripTextBox1
             // 
@@ -238,8 +238,8 @@ namespace SpeedBrowser
             this.toolStripButton7.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripButton7.Name = "toolStripButton7";
-            this.toolStripButton7.Size = new System.Drawing.Size(63, 24);
-            this.toolStripButton7.Text = "转到";
+            this.toolStripButton7.Size = new System.Drawing.Size(54, 24);
+            this.toolStripButton7.Text = "Go";
             this.toolStripButton7.Click += new System.EventHandler(this.toolStripButton7_Click);
             // 
             // notifyIcon1
@@ -250,10 +250,10 @@ namespace SpeedBrowser
             // tabControl1
             // 
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(0, 108);
+            this.tabControl1.Location = new System.Drawing.Point(0, 85);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(815, 372);
+            this.tabControl1.Size = new System.Drawing.Size(928, 438);
             this.tabControl1.TabIndex = 2;
             this.tabControl1.Selected += new System.Windows.Forms.TabControlEventHandler(this.tabControl1_Selected);
             this.tabControl1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.tabControl1_MouseUp);
@@ -262,7 +262,7 @@ namespace SpeedBrowser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 480);
+            this.ClientSize = new System.Drawing.Size(928, 523);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.toolStrip2);
             this.Controls.Add(this.toolStrip1);

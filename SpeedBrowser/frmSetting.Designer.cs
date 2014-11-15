@@ -38,6 +38,7 @@
             this.btnCurpage = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.comboIE = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.trSpeed)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,9 +47,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(28, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 15);
+            this.label1.Size = new System.Drawing.Size(39, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "主页";
+            this.label1.Text = "Home";
             // 
             // txtIndex
             // 
@@ -62,9 +63,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(28, 122);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 15);
+            this.label2.Size = new System.Drawing.Size(47, 15);
             this.label2.TabIndex = 2;
-            this.label2.Text = "速度";
+            this.label2.Text = "Speed";
             // 
             // txtSpeed
             // 
@@ -89,7 +90,7 @@
             this.btnon.Name = "btnon";
             this.btnon.Size = new System.Drawing.Size(118, 39);
             this.btnon.TabIndex = 5;
-            this.btnon.Text = "确定";
+            this.btnon.Text = "OK";
             this.btnon.UseVisualStyleBackColor = true;
             this.btnon.Click += new System.EventHandler(this.btnon_Click);
             // 
@@ -99,7 +100,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(118, 39);
             this.btnCancel.TabIndex = 6;
-            this.btnCancel.Text = "取消";
+            this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -109,7 +110,7 @@
             this.btnCurpage.Name = "btnCurpage";
             this.btnCurpage.Size = new System.Drawing.Size(102, 25);
             this.btnCurpage.TabIndex = 7;
-            this.btnCurpage.Text = "当前页";
+            this.btnCurpage.Text = "Current Page";
             this.btnCurpage.UseVisualStyleBackColor = true;
             this.btnCurpage.Click += new System.EventHandler(this.btnCurpage_Click);
             // 
@@ -118,35 +119,46 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(29, 75);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 15);
+            this.label3.Size = new System.Drawing.Size(55, 15);
             this.label3.TabIndex = 8;
-            this.label3.Text = "IE版本";
+            this.label3.Text = "IE Ver";
             // 
             // comboIE
             // 
             this.comboIE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboIE.FormattingEnabled = true;
             this.comboIE.Items.AddRange(new object[] {
-            "默认",
+            "Default",
             "Internet Explorer 7",
             "Internet Explorer 8",
-            "Internet Explorer 8 强制",
+            "Internet Explorer 8 Important",
             "Internet Explorer 9",
-            "Internet Explorer 9 强制",
+            "Internet Explorer 9 Important",
             "Internet Explorer 10",
-            "Internet Explorer 10 强制",
+            "Internet Explorer 10 Important",
             "Internet Explorer 11",
-            "Internet Explorer 11 强制"});
+            "Internet Explorer 11 Important"});
             this.comboIE.Location = new System.Drawing.Point(98, 75);
             this.comboIE.Name = "comboIE";
             this.comboIE.Size = new System.Drawing.Size(371, 23);
             this.comboIE.TabIndex = 9;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(32, 196);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 39);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "About";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmSetting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(499, 265);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.comboIE);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCurpage);
@@ -163,7 +175,7 @@
             this.Name = "frmSetting";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "设置";
+            this.Text = "Setting";
             this.Load += new System.EventHandler(this.frmSetting_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trSpeed)).EndInit();
             this.ResumeLayout(false);
@@ -183,5 +195,6 @@
         private System.Windows.Forms.Button btnCurpage;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboIE;
+        private System.Windows.Forms.Button button1;
     }
 }

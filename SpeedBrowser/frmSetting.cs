@@ -81,7 +81,7 @@ namespace SpeedBrowser
             {
                 shitver = vers[comboIE.SelectedIndex];
                 reg.SetValue(strRegKey, shitver);
-                MessageBox.Show("您更改了浏览器版本,新的浏览器版本在下次运行本软件时才会生效!");
+                MessageBox.Show("You have changed browser version,new version will take effect after restart application!");
             }
             this.Close();
         }
@@ -89,6 +89,11 @@ namespace SpeedBrowser
         private void btnCurpage_Click(object sender, EventArgs e)
         {
             txtIndex.Text = (this.Owner as frmBrowser).getcurpage();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Programming by Erona\nSite:http://erona.bz");
         }
     }
 }
