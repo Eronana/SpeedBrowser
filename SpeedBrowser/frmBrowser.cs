@@ -22,7 +22,7 @@ namespace SpeedBrowser
         public string indexpage;
         public int tabindex;
         public const int TAB_TEXT_MAXLENGTH=10;
-        public string BROWSER_TITLE = "变速浏览器...";
+        public string BROWSER_TITLE = "变速浏览器";
         public const string CONFIG_FILE = "SpeedBrowser.cfg";
         public bool tabmiddle = false;
 
