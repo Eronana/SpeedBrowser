@@ -1,8 +1,8 @@
-#SpeedBrowser
+# SpeedBrowser
 SpeedBrowser consists of two part:
 - SpeedBrowser by C#
 - SpeedHook by C++
-##SpeedBrowser
+## SpeedBrowser
 A browser frame by WebBrowser
-##SpeedHook
+## SpeedHook
 Hook time function(GetTickCount,timeGetTime...) and return time is recalculated
